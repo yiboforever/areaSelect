@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view style='text-align:center;margin-bottom:30rpx;'>测试小程序的地点选择和日期选择</view>
+  <view class='place'>
+    <view class='left' data-d='start' bindtap='btnFn'>{{place.start}}</view>
+    <view class='right' data-d='end' bindtap='btnFn'>{{place.end}}</view>
+  </view>
+  <button class='btn' bindtap='btnFn'>Click Me</button>
+</view>

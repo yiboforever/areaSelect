@@ -1,0 +1,9 @@
+<!--pages/place/place.wxml-->
+<import src="../../wxSortPickerView/wxSortPickerView.wxml"/> 
+
+<!-- 输入框 -->
+<view class='search'>
+  <input type='text' placeholder='中文/拼音/首字母' placeholder-class='txt'></input>
+</view>
+
+<template is="wxSortPickerView" data="{{wxSortPickerData}}"/>

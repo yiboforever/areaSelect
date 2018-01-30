@@ -1,0 +1,23 @@
+/**index.wxss**/
+.place {
+  display: flex;
+  justify-content: space-around;
+}
+.place > view {
+  width: 250rpx;
+  height: 60rpx;
+
+  border: 3rpx solid #999;
+  text-align: center;
+  line-height: 60rpx;
+}
+.btn {
+  margin-top: 80rpx;
+}
+
+
+
+
+
+
+
